@@ -1,0 +1,16 @@
+{
+  "name": "elasticsearchtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^14.1.0",
+    "solc": "^0.4.20",
+    "web3": "^0.20.0"
+  }
+}
