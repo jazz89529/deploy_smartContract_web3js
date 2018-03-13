@@ -4,7 +4,7 @@ const solc = require('solc');
 const Web3 = require('web3');
 const web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 
-let myContractAddress = '0xbe457c816bf0893cb3a152ce2d40d0c52bac2eb5'; // decided by your contract deployed
+let myContractAddress = '0x9b33298efeb67530cc567f8ceb7bd26eaf46620b'; // decided by your contract deployed
 
 let abi = [ // abi decided by your contract compiled
     {

@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "elasticsearch": "^14.1.0",
+    "ethereumjs-tx": "^1.3.4",
     "solc": "^0.4.20",
     "web3": "^0.20.0"
   }
