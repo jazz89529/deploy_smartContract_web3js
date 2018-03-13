@@ -12,7 +12,7 @@ let bytecode = compiledContract.contracts[':helloWorld'].bytecode;
 let gasEstimate = web3.eth.estimateGas({data: bytecode});
 let MyContract = web3.eth.contract(JSON.parse(abi));
 
-var myContractReturned = MyContract.new({
+let myContractReturned = MyContract.new({
 	    from: '0x24ea8b9c8d286264ad28f2afbf3fac84926931f8', // account address decided by yourself
 	    data: bytecode,
 	    gas: gasEstimate
@@ -27,9 +27,3 @@ var myContractReturned = MyContract.new({
 	    }
   	}
 );
-
-
-
-
-
-

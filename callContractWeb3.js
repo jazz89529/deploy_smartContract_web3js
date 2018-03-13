@@ -28,7 +28,3 @@ let myContract = web3.eth.contract(abi).at(myContractAddress);
 let data = myContract.renderHelloWorld.call(); // decided by your contract function
 
 console.log(data);
-
-
-
-
